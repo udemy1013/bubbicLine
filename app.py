@@ -8,10 +8,9 @@ from io import BytesIO
 import psycopg2
 
 
-LINE_CHANNEL_ACCESS_TOKEN = "~~~~~あなたのチャネルアクセストークン~~~~~"
-LINE_CHANNEL_SECRET = "~~~~~あなたのチャネルシークレット~~~~~"
-DATABASE_URL = "~~~~~あなたのデータベースURL~~~~~" # 後ほどHerokuでPostgreSQLデータベースURLを取得
-HEROKU_APP_NAME = "~~~~~あなたのHerokuアプリ名~~~~~" # 後ほど作成するHerokuアプリ名
+LINE_CHANNEL_ACCESS_TOKEN = "KrsoYg1GiMN7MAOdMH26a3bvi2NU63nnk0jkO+n95M2OQf8/ckcpSPD0Oydu4MSjCqOtu46loEspRbq6ryUV3ojJg9SGFhRzVTttFGY9E6QJ+37UklrOAOOb/lJ4pARC5uSAww0fqW9lQ85mTu1NmgdB04t89/1O/w1cDnyilFU="
+LINE_CHANNEL_SECRET = "8713e9bb416010b8da56acb7c6c26e70"
+DATABASE_URL = "~~~~~あなたのデータベースURL~~~~~" 
 
 app = Flask(__name__)
 
