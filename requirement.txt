@@ -1,2 +1,6 @@
 Flask
 Gunicorn
+line-bot-sdk
+requests
+pillow
+psycopg2
